@@ -47,3 +47,4 @@ sudo install -t "/var/lib/xrdp-pulseaudio-installer" -D -m 644 *.so
 sudo service dbus restart
 sudo service pulseaudio restart
 sudo service xrdp restart
+cd 
