@@ -46,5 +46,5 @@ sudo install -t "/var/lib/xrdp-pulseaudio-installer" -D -m 644 *.so
 # Restart xrdp
 sudo service dbus restart
 sudo service pulseaudio restart
-sudo service xrdp restart
-cd 
+cd && sudo pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1
+
