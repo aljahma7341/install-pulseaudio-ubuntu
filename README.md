@@ -8,7 +8,7 @@ git clone https://github.com/aljahma7341/install-pulseaudio-ubuntu/
 
 
 
-chmoad +x install-pulseaudio-ubuntu.sh
+chmod +x install-pulseaudio-ubuntu.sh
 
 
 sh install-pulseaudio-ubuntu.sh
